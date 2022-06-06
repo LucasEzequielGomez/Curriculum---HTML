@@ -1,5 +1,6 @@
 
-.container {  display: grid;
+.container {  
+    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 0px 0px;
@@ -11,9 +12,21 @@
       "footer";
   }
   
-  .link { grid-area: main; }
+  .main {
+    grid-area: main;
+    background-color: aliceblue;
+    height: 100vh;  
+  }
   
-  .portfolio { grid-area: portfolio; }
+  .portfolio {
+    grid-area: portfolio;
+    background-color: aquamarine;
+    height: 100vh;
+  }
   
-  .footer { grid-area: footer; }
+  .footer {
+    grid-area: footer;
+    background-color: bisque;
+    height: 100vh;  
+  }
   
