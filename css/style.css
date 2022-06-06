@@ -6,12 +6,12 @@
     grid-auto-flow: row;
     justify-items: start;
     grid-template-areas:
-      "link"
+      "main"
       "portfolio"
       "footer";
   }
   
-  .link { grid-area: link; }
+  .link { grid-area: main; }
   
   .portfolio { grid-area: portfolio; }
   
