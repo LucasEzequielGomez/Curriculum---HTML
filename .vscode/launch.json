@@ -5,17 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "firefox",
+            "name": "Launch Chrome",
             "request": "launch",
-            "reAttach": true,
-            "name": "Launch add-on",
-            "addonPath": "${workspaceFolder}"
-        },
-        {
-            "type": "pwa-chrome",
-            "request": "launch",
-            "name": "Open index.html",
-            "file": "c:\\Development\\Curriculum---HTML\\index.html"
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
         }
+    
     ]
 }
