@@ -1,0 +1,37 @@
+.main {
+  background-color: aqua;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  .main img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-right: 0; }
+  .main h2 {
+    justify-items: center;
+    text-align: center; }
+  .main .social-media {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column; }
+
+.footer {
+  background-color: beige;
+  height: 100vh; }
+  .footer h2 {
+    padding: 95px 0 0 55px; }
+  .footer img {
+    height: 16px; }
+
+.portfolio {
+  background-image: url(../img/parallax-01.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh; }
+  .portfolio h2 {
+    padding: 40px 0 0 40px;
+    background-color: bisque; }
