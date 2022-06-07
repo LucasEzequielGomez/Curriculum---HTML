@@ -1,11 +1,18 @@
 .footer {
-    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(../img/parallax-03.jpg);
+    background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
 
-    h2 {
-        padding: 95px 0 0 55px;
+    .contact {
+        min-width: 70px;
     }
-    
+
     img {
         height: 16px;
     }

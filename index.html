@@ -15,7 +15,6 @@
 </head>
   <body>
 
-
       <div>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
           <a class="navbar-brand" href="#">Fixed navbar</a>
@@ -45,19 +44,108 @@
           <div class="experience">
             <h2>Conocimientos</h2>
           </div>
-
+          
           <div class="portfolio parallax" id="portfolio">
             <h2>portfolio</h2>
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+          
+                  <div class="container">
+                    <div class="carousel-caption text-start">
+                      <img src="img/IMG_1405.JPEG" alt="Mi Foto">
+                      <h2>Another example headline.</h2>
+                      <p>Some representative placeholder content for the second slide of the carousel.</p>
+                      <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+          
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <img src="img/IMG_1611.JPEG" alt="Mi Foto">
+                      <h2>Another example headline.</h2>
+                      <p>Some representative placeholder content for the second slide of the carousel.</p>
+                      <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+          
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <img src="img/IMG_1405.JPEG" alt="Mi Foto">
+                      <h2>Another example headline.</h2>
+                      <p>Some representative placeholder content for the second slide of the carousel.</p>
+                      <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+          
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <img src="img/IMG_1611.JPEG" alt="Mi Foto">
+                      <h2>Another example headline.</h2>
+                      <p>Some representative placeholder content for the second slide of the carousel.</p>
+                      <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+          
+                  <div class="container">
+                    <div class="carousel-caption text-end">
+                      <img src="img/IMG_1405.JPEG" alt="Mi Foto">
+                      <h2>Another example headline.</h2>
+                      <p>Some representative placeholder content for the second slide of the carousel.</p>
+                      <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
 
           <div class="footer" id="contacto">
-            <h2>Contacto</h2>
-            <div>
+            <div class="contact">
+              <h2>Contacto</h2>
+              <form action="../enviar.php">
+                <label for="nombre">Nombre</label><br>
+                  <input type="text" id="fname" name="nombre" placeholder="Maria Eugenia"><br>
+                <label for="mail">Email</label><br>
+                  <input type="text" id="mail" name="mail" placeholder="marcita@gmail.com"><br>
+                <label for="celular">Numero de telefono</label><br>
+                  <input type="number" id="number" name="numero" placeholder="011 - 15 xxxx xxxx"><br>
+              </form>
+            </div>
+            <footer>
               <a href="https://www.instagram.com/negropiola_/" target="_blank"><img src="https://i.ibb.co/rw4nNJP/logotipo-de-instagram.png" alt="logo de instagram"></a>
               <a href="https://www.linkedin.com/in/lucas-ezequiel-gomez/" target="_blank"><img src="https://i.ibb.co/XLg9Cpv/linkedin.png" alt="logo de linkedin"></a>
               <a href="https://t.me/LucasEGomez" target="_blank"><img src="https://i.ibb.co/5ccBJRs/telegrama.png" alt="logo de telegram"></a>
               <a href="https://api.whatsapp.com/send?phone=5491130929827" target="_blank"><img src="https://i.ibb.co/f9jPf7r/whatsapp.png" alt="logo de whatsapp"></a>
-            </div>
+            </footer>
           </div>
       </div>
 
